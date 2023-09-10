@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html data-theme="light" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea-House</title>
+    <!-- tailwind css and daisyUi -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.3/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- google font manrope -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&display=swap" rel="stylesheet">
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- customize tailwind css -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    },
+                    colors: {
+                        common_text_color: '#777',
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        .font_manrope {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-10 my-10">
+    <header>
+        <nav>
+
+        </nav>
+        <!-- start banner -->
+        <section>
+            <div class="flex justify-between items-center gap-5">
+                <div class="flex-1 space-y-8">
+                    <h1 class=" text-4xl md:text-7xl font-extrabold">It's good <br>
+                        tea time at The <br>
+                        Tea House
+                    </h1>
+                    <p class="text-sm font-medium text-common_text_color">Tea and Botanical Solutions Supplier Give
+                        Optimum
+                        <br>Satisfaction To
+                        Your Taste Buds.
+                    </p>
+                    <button class="btn btn-primary uppercase">explore more</button>
+                </div>
+                <div class="flex-1 items-center">
+                    <div class=""> <img class="" src="./images/banner.png" alt=""></div>
+                    <div class="flex items-center w-64 justify-around drop-shadow-lg bg-white ml-10 -mt-24  p-5">
+                        <div>
+                            <i class="fa-solid fa-star text-4xl text-[#FFC850]"></i>
+                        </div>
+                        <div>
+                            <h2 class="text-3xl font-extrabold">5.00</h2>
+                            <p class="text-common_text_color">Trust Pilot Rating</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- end banner -->
+    </header>
+</body>
+
+</html>
